@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylegrid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Walter Imperiale - Instruccion - Clases Personalizadas</title>
+
+</head>
+
+<body id="container__index">
+
+    <header class="grid__header">
+        <div>
+            <!-- esto en un futuro va a tener funciones conectadas al back y a una base dedatos, por ahora solo queda decorativo.  -->
+            <p>Ingresar / Carrito</p>
+        </div>
+        <div>
+
+        <img class="img__no__desborde" src="assets/img/banner.jpg" alt="Logo de cabecera">
+        </div>
+
+        
+    </header>
+
+
+    <nav class="grid__menu">
+        <ul>
+            <li><a class="boton" href="index.html">HOME</a></li>
+            <li><a class="boton" href="novedades.html">NOVEDADES</a></li>
+            <li><a class="boton" href="cursos.html">CURSOS</a></li>
+            <li><a class="boton" href="market.html">MARKET</a></li>
+            <li><a class="boton" href="turnos.html">TURNOS</a></li>
+            <li><a class="boton" href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <main class="grid__noticias">
+        <h1 class="animate__animated animate__backInLeft">NOTICIAS</h1>
+        <!-- en esta seccion de noticias, van a aparecer las ultimas 4 o 6 novedades agregadas en la seccion de novedades, o se podran intercarlar on los ultimos cursos agregados en la seccion cursos..  mostrando los ultimos 6 de forma cronologica. 
+        Por ahora, solo quedan estas "cards" de forma estatica y representativa.-->
+        <section>
+            <div class="cards">
+
+                <div class="card">
+                    <img src="assets/img/SamuelColt.jpg" alt=" imagen de Samuel Colt">
+                    <div class="contenido__texto__card">
+                        <h4>SAMUEL COLT</h4>
+                        <p> "Dios creó a los hombres; Samuel Colt los hizo iguales". <a href="https://www.google.com.ar"
+                                target="_blank">Leer mas..</a></p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <img src="assets/img/gwash.jpg" alt="imagen de GEORGE WASHINGTON">
+                    <div class="contenido__texto__card">
+                        <h4>GEORGE WASHINGTON</h4>
+                        <p>"Las armas de fuego son las segundas en importancia tan sólo después de la Constitución,
+                            ellas son los dientes de la libertad de la gente." <a href="https://www.google.com.ar"
+                                target="_blank">Leer mas..</a></p>
+                    </div>
+                </div>
+
+                <div class="card__mobile">
+                    <img src="assets/img/CSlater.jpg" alt="imagen de CHRISTIAN SLATER">
+                    <div class="contenido__texto__card">
+                        <h4>CHRISTIAN SLATER</h4>
+                        <p>"Más vale tener un arma y no necesitarla que necesitarla y no tenerla..." <a
+                                href="https://www.google.com.ar" target="_blank">Leer mas..</a></p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="card__mobile">
+                    <img src="assets/img/ncage.jpg" alt="imagen de NICOLAS CAGE">
+                    <div class="contenido__texto__card">
+                        <h4>NICOLAS CAGE</h4>
+                        <p>En el mundo hay mas de 550 millones de armas de fuego en circulación. Un arma de fuego por
+                            cada 12 personas que hay en el planeta y digo yo, ¿cómo se arman las otras 11?" <a
+                                href="https://www.google.com.ar" target="_blank">Leer mas..</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <section class=" grid__videos">
+        <!-- En esta seccion, pienso poner alguna especie de plug o api que conecte a mi canal de youtube y traiga los ultimos videos de forma actualizada -->
+        <h2 class="bg__oscuro animate__animated animate__backInLeft">NOVEDADES DEL CANAL</h2>
+
+        <div class="div__alinear"><iframe width="100%" height="100%"
+                src="https://www.youtube.com/embed/RWVH_6TnJf8" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></div>
+
+        <div class="div__alinear"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/L-SHm2iKRLs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></div>
+
+        <div class="div__alinear__mobile"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/pBfAUvEuGWI"
+                title="titulo de un video editado" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></div>
+
+        <p class="canal__youtube"><a href="https://www.youtube.com" target="_blank">Ir al canal..</a></p>
+    </section>
+
+    <section class="grid__sponsor">
+        <!-- en est seccion, van a aparecer de forma aleatoerea los logos de los sponsor, al hacerles click me deberia llevar a la pagina web del mismo -->
+        <img class="img__no__desborde" src="assets/img/sposorsr.jpg" alt="Estos son nuestros sponsors">
+    </section>
+
+    <footer class="grid__footer">
+        <hr>
+        <section class="alinea__footer2">
+            <div>
+                <a href="https://wa.me/+543412569044" target="_blank">0341 152 569044</a>
+            </div>
+            <div>
+                <a href=mailto:imperiale52@gmail.com?subject="Consulta Web">imperiale52@gmail.com</a>
+            </div>
+            <div>
+                <a href="https://wa.me/+543412569044" target="_blank"><img src="assets/img/logo_wsp.jpg"
+                        alt="logo wsp"></a>
+
+                <a href="https://instagram.com/imperiale.instructor" target="_blank"><img
+                        src="assets/img/logo_instagram.jpg" alt="logo de instagram"></a>
+
+                <a href="https://www.facebook.com/imperiale.instructor/" target="_blank"><img
+                        src="assets/img/logo_fb.jpg" alt="logo de facebook"></a>
+
+            </div>
+        </section>
+        <hr>
+        <div>
+            <p><a href="https://www.google.com" target="_blank">WebDesing by Imperial-Soft - 2022</a></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

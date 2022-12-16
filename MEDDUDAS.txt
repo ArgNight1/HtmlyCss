@@ -1,0 +1,9 @@
+celu 365
+tablet 768
+pc 1280
+
+@media only screen and (min-width: 1280px) {
+aca le indico que hace a partir de los 1280
+}
+
+	

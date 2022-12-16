@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylegrid.css">
+    <title>Walter Imperiale - Instruccion - Clases Personalizadas</title>
+</head>
+
+<body id="container__index">
+
+    <header class="grid__header">
+        <div>
+            <!-- esto en un futuro va a tener funciones conectadas al back y a una base dedatos, por ahora solo queda decorativo.  -->
+            <p>Ingresar / Carrito</p>
+        </div>
+        <div>
+
+        <img class="img__no__desborde" src="assets/img/banner.jpg" alt="Logo de cabecera">
+        </div>
+
+        
+    </header>
+
+    <nav class="grid__menu">
+        <ul>
+            <li><a class="boton" href="index.html">HOME</a></li>
+            <li><a class="boton" href="novedades.html">NOVEDADES</a></li>
+            <li><a class="boton" href="cursos.html">CURSOS</a></li>
+            <li><a class="boton" href="market.html">MARKET</a></li>
+            <li><a class="boton" href="turnos.html">TURNOS</a></li>
+            <li><a class="boton" href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <main class="grid__noticias">
+        <h1>ESCRIBINOS</h1>
+
+
+        <div class="centrar__frm">
+            <div class="alinear__img__frm">
+                <img src="assets/img/contacto.jpg" alt="imagen de contacto">
+            </div>
+
+            <div>
+                <form>
+                    <div><label for="Nombre">Nombre y Apellido</label>
+                        <input type="text" name="Nombre" placeholder="Juan Perez" pattern=[A-Z\sa-z]{3,20} required></div>
+
+                        <div><label for="email">Su E-mail</label>
+                        <input type="email" name="email" placeholder="juan@sumail.com" required></div>
+
+                        <div><label for="asunto">Seleccione un motivo</label>
+                        <select name="asunto" required>
+                            <option value="">Seleccione</option>
+                            <option value="Capacitaciones">Capacitaciones</option>
+                            <option value="Cursos">Cursos</option>
+                            <option value="Varios">Varios</option>
+                        </select></div>
+
+                        <div><label for="mensaje">Ingrese su mensaje</label>
+                        <textarea name="mensaje" placeholder="Escriba Aqui!" required></textarea></div>
+                        <div><input type="submit" value="Enviar"></div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer class="grid__footer">
+        <hr>
+        <section class="alinea__footer2">
+            <div>
+                <a href="https://wa.me/+543412569044" target="_blank">0341 152 569044</a>
+            </div>
+            <div>
+                <a href=mailto:imperiale52@gmail.com?subject="Consulta Web">imperiale52@gmail.com</a>
+            </div>
+            <div>
+                <a href="https://wa.me/+543412569044" target="_blank"><img src="assets/img/logo_wsp.jpg"
+                        alt="logo wsp"></a>
+
+                <a href="https://instagram.com/imperiale.instructor" target="_blank"><img
+                        src="assets/img/logo_instagram.jpg" alt="logo de instagram"></a>
+
+                <a href="https://www.facebook.com/imperiale.instructor/" target="_blank"><img
+                        src="assets/img/logo_fb.jpg" alt="logo de facebook"></a>
+
+            </div>
+        </section>
+        <hr>
+        <div>
+            <p><a href="https://www.google.com" target="_blank">WebDesing by Imperial-Soft - 2022</a></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
